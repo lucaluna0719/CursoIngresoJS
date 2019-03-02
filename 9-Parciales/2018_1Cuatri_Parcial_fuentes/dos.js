@@ -1,9 +1,20 @@
 function mostrar()
 {
-  var precio;
+  	var nombre;
+  	var localidad;
+
+
+	nombre=elNombre.value;
+	localidad=laLocalidad.value;
+
+	alert("Usted es " + nombre + " y vive en la localidad de " + localidad);
+
+
+
+  /*var precio;
   var formadepago;
   var recargo;
-  var precio final;
+  var preciofinal;
 
   precio=elNombre.value;
   formadepago=laLocalidad.value;
@@ -13,6 +24,6 @@ function mostrar()
  recargo=precio*10/100;
  preciofinal= formadepago + recargo;
 
- alert( "Su total es" + preciofinal );
+ alert( "Su total es" + preciofinal );*/
 
 }
